@@ -1,0 +1,124 @@
+/* 
+    Document   : style
+    Created on : Aug 19, 2012, 12:32:23 PM
+    Author     : Jaystings
+    Description:
+        Edit this stylesheet carefully...
+*/
+
+body {
+    margin: 0;
+    line-height: 18px;
+    background-color: #228B22;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #5696fc;
+    background-color: black;
+}
+
+h1 {
+    font-family: serif;
+    text-shadow: 1px 1px;
+    padding-left: 10px;
+    margin: 15px;
+    line-height: 40px;
+}
+
+p {
+    margin: 5px;
+    margin-right: 14px;
+    margin-left: 12px;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #e6e6e6;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navli {
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+}
+
+.navli:last-child {
+    float: left;
+    border-right:1px solid #bbb;
+    display: block;
+}
+
+.resl {
+    padding-top: 5px;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.resli{
+    padding-bottom: 5px;
+}
+
+.nava {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #111;
+}
+
+.nava.active {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #4CAF50;
+}
+
+.blog {
+    background-color: #000;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.date {
+    margin: 0px;
+    color: #e6e6e6;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+footer {
+    margin: 10px;
+    font-size: 14px;
+    align-content: center;
+    vertical-align: bottom;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.resume {
+    background-color: #fff;
+    color: #000;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    font-family: serif;
+}
