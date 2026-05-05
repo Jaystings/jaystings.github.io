@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Jaystings</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        
+    </head>
+    <body>
+        
+        <!-- Title -->
+        <h1>
+            James C. Hastings; Jaystings
+        </h1>
+        <!-- Navigation Bar -->
+      <ul class="navbar">
+            <li class="navli"><a class="nava" href="index.html">Home</a></li>
+            <li class="navli"><a class="nava" href="about.html">About</a></li>
+            <li class="navli"><a class="nava" href="library.html">Library</a></li>
+            <li class="navli"><a class="nava" href="apps.html">Apps</a></li>
+            <li class="navli"><a class="nava" href="radio.html">Radio</a></li>
+        </ul>
+  
+        <!-- I farted! -->
+        <h1>Sorry:</h1>
+        <h1>James C Hastings put a bad link on his website</h1>
+	<h1><a href="mailto:hastings.james@hotmail.com?Subject=You%20suck!">Crucify him for it here!</a></h1>
+        
+        <!-- Footer -->
+        <footer>
+            <h5 class="footer" align="center"> James C Hastings: updated 8-19-16. Hastings.james@hotmail.com ←
+                <a class="footer" href="mailto:hastings.james@hotmail.com?subject=Jaystings.info"> Email me!</a></p>
+        </footer>
+    </body>
+</html>

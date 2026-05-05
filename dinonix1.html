@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DinoNix</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        
+    </head>
+    <body>
+        
+        <!-- Title -->
+        <h1>
+            The Blog of Linus Lanting
+        </h1>
+        <!-- Navigation Bar -->
+        <ul class="navbar">
+            <li class="navli"><a class="nava active" href="home.html">Home</a></li>
+            <li class="navli"><a class="nava" href="about.html">About</a></li>
+            <li class="navli"><a class="nava" href="library.html">Library</a></li>
+            <li class="navli"><a class="nava" href="apps.html">Apps</a></li>
+        </ul>
+        
+        <!-- Blog -->
+        <script>
+		function sortDescending(a, b) {
+			var date1 = $(a).find(".year").text();
+			date1 = date1.split('-');
+			date1 = new Date(date1[2], date1[1] - 1, date1[0]);
+			var date2 = $(b).find(".year").text();
+			date2 = date2.split('-');
+			date2 = new Date(date2[2], date2[1] - 1, date2[0]);
+			
+			return date1 < date2;
+		};
+		$(document).ready(function() {
+			$('#all_elements .element').sort(sortDescending).appendTo('#all_elements');
+		});
+        </script>
+        <div id="all_elements">
+    
+		    <!-- one element -->
+		    <div class="element">
+		        <div class="display-number">02</div>
+		        <div class="year">20-10-2011</div>
+		    </div><!-- element -->
+		    
+		    <!-- one element -->
+		    <div class="element">
+		        <div class="display-number">03</div>
+		        <div class="year">22-09-2011</div>
+		    </div><!-- element -->
+		    
+		    <!-- one element -->
+		    <div class="element">
+		        <div class="display-number">01</div>
+		        <div class="year">01-12-2011</div>
+		    </div><!-- element -->
+		    
+		    <!-- one element -->
+		    <div class="element">
+		        <div class="display-number">04</div>
+		        <div class="year">01-06-2011</div>
+		    </div><!-- element -->
+		    
+		    <!-- one element -->
+		    <div class="element">
+		        <div class="display-number">05</div>
+		        <div class="year">01-06-2010</div>
+		    </div><!-- element -->
+    
+	</div> <!--all_elements-->
+        
+        <!-- Footer -->
+        <footer>
+            <h5 class="footer" align="center"> James C Hastings: updated 9-14-16. Hastings.james@hotmail.com ←
+                <a class="footer" href="mailto:hastings.james@hotmail.com?subject=Jaystings.info"> Email me!</a>
+        </footer>
+    </body>
+</html>

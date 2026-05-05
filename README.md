@@ -1,2 +1,2 @@
-# jasytings.github.io
-Personal website for James Curtis Hastings, mirror
+# Jaystings.com
+Personal website for James Curtis Hastings
