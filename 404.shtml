@@ -30,7 +30,7 @@ and open the template in the editor.
         <!-- I farted! -->
         <h1>Sorry:</h1>
         <h1>James C Hastings put a bad link on his website</h1>
-	<h1><a href="mailto:hastings.james@hotmail.com?Subject=You%20suck!">Crucify him for it here!</a></h1>
+	<h1><a href="mailto:hastings.james@hotmail.com?Subject=You%20suck!">Email him about it here</a></h1>
         
         <!-- Footer -->
         <footer>
